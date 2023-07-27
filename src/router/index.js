@@ -47,12 +47,12 @@ const routes = [
     component: UserProfile
   },
   {
-    path: '/Emmanuella-Appiah',
+    path: '/Emmanuella',
     name: 'Emmanuella',
     component: Emmanuella
   },
   {
-    path: '/Princess-Padmore',
+    path: '/Princess',
     name: 'Princess',
     component: Princess
   }
