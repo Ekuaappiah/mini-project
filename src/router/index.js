@@ -1,19 +1,60 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import LandingPage from '../views/LandingPage.vue'
+import Signup from '../views/Signup.vue'
+import Signin from '../views/Signin.vue'
+import Proceed from '../views/Proceed.vue'
+import Home from '../views/Home.vue'
+import UserProfile from '../views/UserProfile.vue'
+import Interest from '../views/Interest.vue'
+import Emmanuella from '../views/Profiles/Emmanuella.vue'
+import Princess from '../views/Profiles/Princess.vue'
+
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'LandingPage',
+    component: LandingPage
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/Signup',
+    name: 'Signup',
+    component: Signup
+  },
+  {
+    path: '/Signin',
+    name: 'Signin',
+    component: Signin
+  },
+  {
+    path: '/Proceed',
+    name: 'Proceed',
+    component: Proceed
+  },
+  {
+    path: '/Home',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/profile/:id',
+    name: 'Interest',
+    component: Interest
+  },
+  {
+    path: '/UserProfile',
+    name: 'UserProfile',
+    component: UserProfile
+  },
+  {
+    path: '/Emmanuella-Appiah',
+    name: 'Emmanuella',
+    component: Emmanuella
+  },
+  {
+    path: '/Princess-Padmore',
+    name: 'Princess',
+    component: Princess
   }
 ]
 
