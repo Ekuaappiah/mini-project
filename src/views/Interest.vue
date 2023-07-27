@@ -25,8 +25,10 @@
 
    <div class="cont">
 
-  <img style="cursor:pointer;"
-  @click="redirectToPreviousPage" :src="require('@/assets/pics/icon.png' )"  alt="">
+
+  <!-- <img style="cursor:pointer;"
+  @click="redirectToPreviousPage" :src="require('@/assets/pics/icon.png' )"  alt=""> -->
+     
 </div>
 
 <h2 style="
