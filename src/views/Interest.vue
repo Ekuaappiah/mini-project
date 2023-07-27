@@ -59,7 +59,7 @@
 export default {
   methods: {
     redirectToPreviousPage() {
-      this.$router.go(-1);
+      this.$router.push(-1);
     },
     searchProfiles() {
       this.filteredProfiles = this.profiles.filter(profile => profile.name.toLowerCase().includes(this.searchTerm.toLowerCase()));
