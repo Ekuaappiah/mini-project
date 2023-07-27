@@ -25,10 +25,8 @@
 
    <div class="cont">
 
-
   <!-- <img style="cursor:pointer;"
   @click="redirectToPreviousPage" :src="require('@/assets/pics/icon.png' )"  alt=""> -->
-     
 </div>
 
 <h2 style="
@@ -46,8 +44,8 @@
           <h3>{{ user.name }}</h3>
           <p>{{ user.bio }}</p>
          <div class="connectUser">
-          <a :href="user.connect"><button id="connect"
-          >Connect</button></a>
+            <router-link to="/Emmanuella" id="connect"
+          >Connect</router-link>
         </div>
         </div>
       </div>
@@ -61,7 +59,7 @@
 export default {
   methods: {
     redirectToPreviousPage() {
-      this.$router.push(-1);
+      this.$router.go(-1);
     },
     searchProfiles() {
       this.filteredProfiles = this.profiles.filter(profile => profile.name.toLowerCase().includes(this.searchTerm.toLowerCase()));
@@ -79,14 +77,12 @@ export default {
           name: 'Emmanuella Appiah',
           image: require('@/assets/pics/profile.jpeg'),
           bio: 'Shares 2 other interests with you',
-          connect: '/Emmanuella'
         },
         {
           id: 2,
           name: 'Princess Padmore',
           image: require('@/assets/pics/princess.jpeg'),
           bio: 'Shares 3 other interests with you',
-          connect: '/Princess'
         },
         {
           id: 3,
