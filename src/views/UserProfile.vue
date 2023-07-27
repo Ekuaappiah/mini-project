@@ -7,9 +7,6 @@
   </div>
 </div>
   <div class="cont">
- 
-    <img 
-      @click="redirectToPreviousPage" src="../assets/pics/icon.png" alt="">
     
     <h1>Profile Settings</h1>
  
@@ -208,9 +205,6 @@ export default {
     },
     cancelLogout() {
       this.showLogoutPopup = false;
-    },
-    redirectToPreviousPage() {
-      this.$router.go(-1);
     }
 }
 </script>
