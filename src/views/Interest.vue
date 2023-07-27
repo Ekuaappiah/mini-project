@@ -79,14 +79,14 @@ export default {
           name: 'Emmanuella Appiah',
           image: require('@/assets/pics/profile.jpeg'),
           bio: 'Shares 2 other interests with you',
-          connect: '/Emmanuella-Appiah'
+          connect: '/Emmanuella'
         },
         {
           id: 2,
           name: 'Princess Padmore',
           image: require('@/assets/pics/princess.jpeg'),
           bio: 'Shares 3 other interests with you',
-          connect: '/Princess-Padmore'
+          connect: '/Princess'
         },
         {
           id: 3,
