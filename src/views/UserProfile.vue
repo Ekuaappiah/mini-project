@@ -336,4 +336,7 @@ flex-shrink: 0;
 .option:hover{
   cursor: pointer;
 }
+  #logout{
+    float:right;
+  }
 </style>
