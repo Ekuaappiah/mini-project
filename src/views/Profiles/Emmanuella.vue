@@ -12,7 +12,7 @@
 <div class="line"></div>
 
 <div class="cont">
-  <img @click="redirectToPreviousPage" :src="require('@/assets/pics/icon.png' )"  alt="">
+ 
   <h1>Appiah Emmanuella</h1>
 </div>
 <div class="info-details">
@@ -75,11 +75,6 @@ data(){
   return{
    profileImage: ''
   }
-},
-methods: {
-  redirectToPreviousPage() {
-      this.$router.go(-1);
-    }
 },
 mounted(){
   this.profileImage = localStorage.getItem('profileImage');
