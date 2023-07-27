@@ -3,7 +3,7 @@
   <div class="nav">
   <div class="cont-1">
     <!-- <img id="logo" :src="require('@/assets/pics/clip.png')" alt="logo"> -->
-    <h1><i>CAMPUS CONNECT</i></h1>
+    <router-link to="/Home" style="text-decoration: none;"> <h1><i>CAMPUS CONNECT</i></h1></router-link> 
   </div>
   <div class="cont2">
       <router-link to="/UserProfile"><img id="profile-img" :src="profileImage" alt=""></router-link>
@@ -12,7 +12,7 @@
 <div class="line"></div>
 
 <div class="cont">
-  <img @click="redirectToPreviousPage" :src="require('@/assets/pics/icon.png' )"  alt="">
+
   <h1>Princess Padmore</h1>
 </div>
 <div class="info-details">
