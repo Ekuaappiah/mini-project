@@ -13,11 +13,11 @@
 
 <div class="cont">
 
-  <h1>Appiah Emmanuella</h1>
+  <h1>Adelaide Adomako</h1>
 </div>
 <div class="info-details">
   <div class="one">
-    <img class="imgs" :src="require('@/assets/pics/profile.jpeg')" alt=""><br>
+    <img class="imgs" :src="require('@/assets/pics/adelaide.jpeg')" alt=""><br>
     <div>
       <h2 >Emmanuella Appiah</h2>
       <p>Shares 2 other interests with you</p>
