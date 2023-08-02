@@ -77,25 +77,26 @@ export default {
           name: 'Emmanuella Appiah',
           image: require('@/assets/pics/profile.jpeg'),
           bio: 'Shares 2 other interests with you',
-        },
-        {
-          id: 2,
-          name: 'Princess Padmore',
-          image: require('@/assets/pics/princess.jpeg'),
-          bio: 'Shares 3 other interests with you',
-        },
-        {
-          id: 3,
-          name: 'Adelaide Adomako',
-          image: require('@/assets/pics/adelaide.jpeg'),
-          bio: 'Shares 2 other interests with you'
-        },
-        {
-          id: 4,
-          name: 'Frederick Mark',
-          image: require('@/assets/pics/fred.jpeg'),
-          bio: 'Shares 4 other interests with you'
         }
+        // },
+        // {
+        //   id: 2,
+        //   name: 'Princess Padmore',
+        //   image: require('@/assets/pics/princess.jpeg'),
+        //   bio: 'Shares 3 other interests with you',
+        // },
+        // {
+        //   id: 3,
+        //   name: 'Adelaide Adomako',
+        //   image: require('@/assets/pics/adelaide.jpeg'),
+        //   bio: 'Shares 2 other interests with you'
+        // },
+        // {
+        //   id: 4,
+        //   name: 'Frederick Mark',
+        //   image: require('@/assets/pics/fred.jpeg'),
+        //   bio: 'Shares 4 other interests with you'
+        // }
       ]
     }
   },
