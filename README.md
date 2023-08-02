@@ -1,4 +1,10 @@
- PROJECT DOCUMENTATION
+APPIAH EMMANUELLA
+INDEX NO: 4196520
+REFERENCE N0: 20750131
+emmanuellaekuaappiah@gmail.com
+BSC COMPUTER SCIENCE 3
+
+PROJECT DOCUMENTATION
  
 NAME OF PROJECT: CAMPUS-CONNECT
 
@@ -74,13 +80,10 @@ USAGE GUIDE
 
 
 LIMITATIONS AND FUTURE ENHANCEMENT
-● Asthisisaprototype,ituseslocalstorageforuserauthenticationand storing user data. In a production version, a proper database and server-side authentication should be used.
-● Thesearchfunctionalityinthisprototypeislimitedtosearchingfor other fields of interests. A more advanced matching algorithm can be implemented in the future to add search for other students.
+● As this is a prototype, it uses local storage for user authentication and storing user data. In a production version, a proper database and server-side authentication should be used.
+● The search functionality in this prototype is limited to searching for other fields of interests. A more advanced matching algorithm can be implemented in the future to add search for other students.
+
 CONCLUSION
 The Campus Connect Web Application prototype demonstrates the core features and functionality of a platform where students can connect, explore, and collaborate based on their academic and professional interests. With the potential for further development and enhancements, Campus Connect could become a valuable tool for students on the KNUST campus to find like-minded peers and foster academic and professional growth.
-DETAILS
-APPIAH EMMANUELLA emmanuellaekuaappiah@gmail.com BSC COMPUTER SCIENCE
-YEAR 3
-0592649181
 
  
