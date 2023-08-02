@@ -19,11 +19,11 @@
   <div class="one">
     <img class="imgs" :src="require('@/assets/pics/adelaide.jpeg')" alt=""><br>
     <div>
-      <h2 >Emmanuella Appiah</h2>
+      <h2 >Adelaide Adomako</h2>
       <p>Shares 2 other interests with you</p>
 
       <h2>Contact information</h2>
-      <p>ekuaappiah@gmail.com</p>
+      <p>adelaide203@gmail.com</p>
       <p>+233 592 649 181</p>
 
       <button class="connect">Connect</button>
@@ -38,7 +38,7 @@
       <div class="data">
         College of Science <br>
         Computer Science <br>
-        Year 3
+        Year 2
       </div>
     </div><br>
     <div class="box">
@@ -46,7 +46,7 @@
       <div class="data">
         Methodist Girls' High School <br>
         General Science <br>
-        2017 - 2020
+        2018 - 2021
       </div>
     </div>
     <br>
