@@ -74,8 +74,8 @@ export default {
       userProfiles: [
         {
           id: 1,
-          name: 'Emmanuella Appiah',
-          image: require('@/assets/pics/profile.jpeg'),
+          name: 'Adelaide Adomako',
+          image: require('@/assets/pics/adelaide.jpeg'),
           bio: 'Shares 2 other interests with you',
         }
         // },
@@ -86,9 +86,8 @@ export default {
         //   bio: 'Shares 3 other interests with you',
         // },
         // {
-        //   id: 3,
-        //   name: 'Adelaide Adomako',
-        //   image: require('@/assets/pics/adelaide.jpeg'),
+            //  name: 'Emmanuella Appiah',
+            // image: require('@/assets/pics/profile.jpeg'),
         //   bio: 'Shares 2 other interests with you'
         // },
         // {
