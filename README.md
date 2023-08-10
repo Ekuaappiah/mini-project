@@ -8,6 +8,8 @@ PROJECT DOCUMENTATION
  
 NAME OF PROJECT: CAMPUS-CONNECT
 
+WEBSITE LINK: https://campus-connectt.netlify.app/
+
 TABLE OF CONTENTS
 ● Introduction
 ● Aim of Project
